@@ -3,7 +3,7 @@ package com.bnta.c4.AaronNazareth.Lessons.Object_Oriented_Programming_1.Week2_Fr
 public class Person {
     // Constructor used to set up initial values for object
     private String name;
-    private int age; // This is the age
+    private int age;
     private SkinColor skinColor;
 
     // Setter - used to set a particular property value
