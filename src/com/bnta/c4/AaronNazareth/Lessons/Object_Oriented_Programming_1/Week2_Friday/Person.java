@@ -4,6 +4,7 @@ public class Person {
     // Constructor used to set up initial values for object
     private String name;
     private int age;
+
     private SkinColor skinColor;
 
     // Setter - used to set a particular property value
