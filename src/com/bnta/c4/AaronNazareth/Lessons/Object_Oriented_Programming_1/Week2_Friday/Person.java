@@ -1,7 +1,7 @@
 package com.bnta.c4.AaronNazareth.Lessons.Object_Oriented_Programming_1.Week2_Friday;
 
 public class Person {
-    // Constructor used to set up initial values for object
+    // Fields for object, which will belong to whatever instance of the class you create
     private String name;
     private int age;
     private SkinColor skinColor;

@@ -2,13 +2,13 @@ package com.bnta.c4.AaronNazareth.Lessons.Object_Oriented_Programming_1.Week2_Fr
 
 public class PersonMain {
     public static void main(String[] args) {
-        Person aaron = new Person();
-        aaron.setName("Aaron");
-        aaron.setAge(23);
-        aaron.setSkinColor(SkinColor.BROWN);
-        System.out.println(aaron.getName());
-        System.out.println(aaron.getAge());
-        System.out.println(aaron.getSkinColor());
+        Person aaron = new Person();    // Uses Person class to create a new Person object
+        aaron.setName("Aaron");     // Invokes setter from class and applies "Aaron" as name
+        aaron.setAge(23);       // Invokes setter from class and applies "23" as age
+        aaron.setSkinColor(SkinColor.BROWN);    // Invokes setter from class and applies "BROWN" as age
+        System.out.println(aaron.getName());    // Invokes getter from class and returns name, then prints
+        System.out.println(aaron.getAge());     // Invokes getter from class and returns age, then prints
+        System.out.println(aaron.getSkinColor());   // Invokes getter from class and returns skin colour, then prints
 
         Person otherPerson = new Person();
         otherPerson.setName("Random");

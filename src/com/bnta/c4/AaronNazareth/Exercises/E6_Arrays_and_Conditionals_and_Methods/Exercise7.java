@@ -1,4 +1,4 @@
-package com.bnta.c4.AaronNazareth.Exercises.E3_Arrays_and_Conditionals_and_Methods;
+package com.bnta.c4.AaronNazareth.Exercises.E6_Arrays_and_Conditionals_and_Methods;
 
 public class Exercise7 {
     /*
