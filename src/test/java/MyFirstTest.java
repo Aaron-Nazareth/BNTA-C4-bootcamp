@@ -17,6 +17,10 @@ public class MyFirstTest {
 
     @Test
     void hello2() {
+        // Given
 
+        // When
+
+        // Then
     }
 }
