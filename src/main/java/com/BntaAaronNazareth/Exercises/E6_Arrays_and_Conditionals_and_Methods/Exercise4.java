@@ -21,16 +21,19 @@ public class Exercise4 {
     }
 
     public static void checkIfPrimeNumber(int num) {
-        boolean prime = true;
+        boolean prime = true;   // Set initial boolean for prime values as true - all num inputs assumed prime to begin
+        // with
 
-        if (num < 2) {
+        if (num < 2) {  // We know prime numbers start a 2 so set prime boolean to false for all num inputs < 2
             prime = false;
         }
 
-        for (int i = 2; i <= num/2; i++) {
-            if (num % i == 0) {
-                prime = false;
-                break;
+        for (int i = 2; i <= num/2; i++) {  // Loop through num inputs based on iterations from 2 to half the num
+            // input
+            if (num % i == 0) { // If any of the num inputs have no remainder when divided by a number, then they
+                // aren't a prime
+                prime = false;  // Set prime boolean to false
+                break;  // Break since we have determined not a prime and don't want to continue looping
             }
         }
         if (prime) {
