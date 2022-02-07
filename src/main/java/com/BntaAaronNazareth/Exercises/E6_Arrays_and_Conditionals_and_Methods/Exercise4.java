@@ -7,6 +7,7 @@ public class Exercise4 {
     */
     public static void main(String[] args) {
      // Prime numbers are divisible only by 1 and themselves
+        checkIfPrimeNumber(0);  // not prime
         checkIfPrimeNumber(1);  // not prime
         checkIfPrimeNumber(2);  // prime
         checkIfPrimeNumber(3);  // prime
@@ -20,17 +21,23 @@ public class Exercise4 {
     }
 
     public static void checkIfPrimeNumber(int num) {
-        if (num == 1) {
-            System.out.println(num + " is not a prime number");
+        boolean prime = true;
+
+        if (num < 2) {
+            prime = false;
         }
-        for (int i = 2; i < num; i++) {
+
+        for (int i = 2; i <= num/2; i++) {
             if (num % i == 0) {
-                System.out.println(num + " is not a prime number");
+                prime = false;
                 break;
             }
-            else {
-                System.out.println(num + " is a prime number");
-            }
+        }
+        if (prime) {
+            System.out.println(num + " is a prime number");
+        }
+        else {
+            System.out.println(num + " is not a prime number");
         }
     }
 }
