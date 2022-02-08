@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Object_Oriented_Programming_1.Week2_Friday;
+package com.BntaAaronNazareth.Lessons.CH4_Object_Oriented_Programming_1.Week2_Friday;
 
 public class Person {
     // Fields for object, which will belong to whatever instance of the class you create

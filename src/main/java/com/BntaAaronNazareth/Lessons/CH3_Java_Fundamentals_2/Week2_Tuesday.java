@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Java_Fundamentals_2;
+package com.BntaAaronNazareth.Lessons.CH3_Java_Fundamentals_2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Object_Oriented_Programming_1.Week2_Friday;
+package com.BntaAaronNazareth.Lessons.CH4_Object_Oriented_Programming_1.Week2_Friday;
 
 public class PersonMain {
     public static void main(String[] args) {

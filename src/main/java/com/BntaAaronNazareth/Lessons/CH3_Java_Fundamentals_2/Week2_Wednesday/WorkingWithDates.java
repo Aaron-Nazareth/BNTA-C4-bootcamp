@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Java_Fundamentals_2.Week2_Wednesday;
+package com.BntaAaronNazareth.Lessons.CH3_Java_Fundamentals_2.Week2_Wednesday;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

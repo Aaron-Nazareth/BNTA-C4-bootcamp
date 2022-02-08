@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Object_Oriented_Programming_1.Week3_Monday.Car_oop_example;
+package com.BntaAaronNazareth.Lessons.CH4_Object_Oriented_Programming_1.Week3_Monday.Car_oop_example;
 
 public class Main {
     public static void main(String[] args) {

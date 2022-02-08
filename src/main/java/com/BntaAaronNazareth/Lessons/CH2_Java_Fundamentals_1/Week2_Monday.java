@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.Java_Fundamentals_1;
+package com.BntaAaronNazareth.Lessons.CH2_Java_Fundamentals_1;
 
 public class Week2_Monday {
     public static void main(String[] args) {
