@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.CH5_Intro_to_Data_Classes.Week4_Friday;
+package com.BntaAaronNazareth.Lessons.CH5_Intro_to_Data_Classes.Week4_Tuesday;
 
 import java.util.ArrayList;
 import java.util.List;

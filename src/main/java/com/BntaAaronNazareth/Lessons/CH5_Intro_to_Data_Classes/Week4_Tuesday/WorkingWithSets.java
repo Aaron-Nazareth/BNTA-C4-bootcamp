@@ -1,4 +1,4 @@
-package com.BntaAaronNazareth.Lessons.CH5_Intro_to_Data_Classes.Week4_Friday;
+package com.BntaAaronNazareth.Lessons.CH5_Intro_to_Data_Classes.Week4_Tuesday;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -19,5 +19,5 @@ public class WorkingWithSets {
         balls.forEach(System.out::println);
     }
 
-    record Ball(String color){}
+    record Ball(String color){} // Record is an immutable data class that requires only the type and name of fields
 }
