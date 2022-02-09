@@ -6,6 +6,13 @@ public class Person {
     private int age;
     private SkinColor skinColor;
 
+    public Person() {}
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     // Setter - used to set a particular property value
     public void setName(String name) {
         this.name = name;
@@ -31,5 +38,14 @@ public class Person {
     // Getter
     public SkinColor getSkinColor() {
         return skinColor;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", skinColor=" + skinColor +
+                '}';
     }
 }
